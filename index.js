@@ -134,7 +134,7 @@ async function run(){
         });
 
 
-
+//for user opinion
         app.post('/opinion', async(req , res)=>{
             const user = req.body;
             console.log(user);
